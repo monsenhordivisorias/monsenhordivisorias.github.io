@@ -1,0 +1,38 @@
+      	<div class="page-body">
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+   <div class="slider">
+    <ul class="slides">
+      <li ng-repeat="slider in sliders" ng-init="finish()">
+        <img class="responsive-img" src="{{section.image}}"> 
+        <div class="caption left-align left">
+          <h3 class="white-text">{{section.title}}</h3>
+         <!-- <h5 class="light grey-text text-darken-1">Ótima qualidade e acabamento.</h5> -->
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 m4" ng-repeat="section in sections">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">{{section.icon}}</i></h2>
+            <h5 class="center">{{section.title}}</h5>
+
+            <p class="light">{{section.body}}</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+</div>

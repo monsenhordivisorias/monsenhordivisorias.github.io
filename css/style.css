@@ -1,0 +1,16 @@
+.about {
+  background-image: url('https://mrdmcostura.github.io/images/tech.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+}
+.full-page-panel {
+
+  width: 100%;
+position: relative;
+padding: 3rem 0;
+}
+
+.img-bg {
+    background-size: 100%;
+    background-position: center;
+}

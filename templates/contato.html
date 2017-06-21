@@ -1,0 +1,43 @@
+<div class="row contato">
+    <form class="col s12" id="form" ng-submit="submit($event)">
+      <div class="row">
+	            
+	      
+        <div class="input-field col s12">
+          <input id="name" type="text" ng-model="mail.nome" class="validate" required aria-required="true" data-required-message="Por favor insira um nome.">
+          <label for="name">Nome</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="phone" ng-model="mail.telefone" type="tel" class="validate" maxlength="15" required aria-required="true" name="phone"  required pattern="[0-9]{10,11}$" required data-required-message="Por favor insira um telefone." data-type-message="Por favor insira um telefone válido.">
+          <label for="phone">Telefone</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="email"  ng-model="mail.email" type="email" class="validate" required aria-required="true">
+          <label for="email">Email</label>
+        </div>
+ 
+	    </div>
+ 
+	          <div class="row">
+        <div class="input-field col s12">
+          <input id="subject" ng-model="mail.asunto" type="text" class="validate" required aria-required="true">
+          <label for="subject">Asunto</label>
+        </div>
+      </div>
+	    
+
+	    
+	        <div class="row">
+        <div class="input-field col s12">
+          <textarea id="body" ng-model="mail.mensagem" class="materialize-textarea" required aria-required="true"></textarea>
+          <label for="body">Mensagem</label>
+        </div>
+      </div>
+	    <button id="submit" type="submit" class="btn waves-effect waves-light" name="action">Enviar
+    <i class="material-icons right">send</i>
+  </button>
+	       <a href="/" type="button" id="cancel" class="btn waves-effect waves-light grey darken-1">Cancelar<i class="material-icons right">cancel</i></a>
+          </form>
+</div>

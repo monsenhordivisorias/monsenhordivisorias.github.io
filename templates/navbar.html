@@ -1,0 +1,19 @@
+ <nav class="grey darken-2" role="navigation">
+    <div class="nav-wrapper container"><a href="/" id="logo-container" class="brand-logo">Rita costuras</a>
+      <ul class="right hide-on-med-and-down">
+        <li id="linkHome" ng-class="{ active: isActive('/')}"><a href="/">Home</a></li>
+        <li id="linkEmpresa" ng-class="{ active: isActive('/empresa')}"><a href="/empresa">Empresa</a></li>
+        <li id="linkServicos" ng-class="{ active: isActive('/servicos')}"><a href="/servicos">Serviços</a></li>
+        <li id="linkContato" ng-class="{ active: isActive('/contato')}"><a href="/contato" class="contact waves-effect waves-light btn"  >Contato</a></li>
+
+</ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li  ng-class="{ active: isActive('/')}"><a href="/">Home</a></li>
+        <li ng-class="{ active: isActive('/empresa')}"><a href="/empresa">Empresa</a></li>
+        <li ng-class="{ active: isActive('/servicos')}"><a href="/servicos">Serviços</a></li>
+        <li ng-class="{ active: isActive('/contato')}"><a href="/contato" class="contact" >Contato</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
