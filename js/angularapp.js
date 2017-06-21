@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var baseURL = 'https://mrdmcostura.github.io';
+  var baseURL = 'https://monsenhordivisorias.github.io';
   $('.button-collapse').sideNav();
   var app = angular.module("app", ["ngRoute"]);
 
@@ -30,9 +30,9 @@
       });
   });
   app.controller("MainController", function ($scope) {
-    $scope.sliders = [{image: "https://mrdmcostura.github.io/images/slider7.jpg", title: "Alta qualidade"},
-                     {image: "https://mrdmcostura.github.io/images/slider2.jpg", title: "Conserto de roupas"},
-                     {image: "https://mrdmcostura.github.io/images/slider6.png", title: "Customização"}];
+    $scope.sliders = [{image: "https://monsenhordivisorias.github.io/images/slider7.jpg", title: "Alta qualidade"},
+                     {image: "https://monsenhordivisorias.github.io/images/slider2.jpg", title: "Conserto de roupas"},
+                     {image: "https://monsenhordivisorias.github.io/images/slider6.png", title: "Customização"}];
 
     $scope.sections = [{icon: "flash_on", title: "Entrega rápida", body: "Trabalhamos para lhe atender no menor tempo possível."},
                      {icon: "group", title: "Atenção com as demandas dos clientes", body: "Buscamos que o cliente se sinta realizado em sua individualidade e gosto."},
