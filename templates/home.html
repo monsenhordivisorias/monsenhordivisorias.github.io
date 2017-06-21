@@ -1,16 +1,39 @@
-      	<div class="page-body">
+        	<div class="page-body">
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
    <div class="slider">
     <ul class="slides">
-      <li ng-repeat="slider in sliders" ng-init="finish()">
-        <img class="responsive-img" src="{{section.image}}"> 
+     <!--
+          <li ng-repeat="slider in sliders" ng-init="$last && finish()">
+        <img class="responsive-img" src="{{slider.image}}"> 
         <div class="caption left-align left">
-          <h3 class="white-text">{{section.title}}</h3>
+          <h3 class="white-text">{{slider.title}}</h3>
+          <h5 class="light grey-text text-darken-1">Ótima qualidade e acabamento.</h5> 
+        </div>
+      </li>
+-->
+                <li>
+        <img class="responsive-img" src="https://monsenhordivisorias.github.io/images/slider1.jpg"> 
+        <div class="caption left-align left">
+          <h3 class="white-text">Depilação a cera</h3>
          <!-- <h5 class="light grey-text text-darken-1">Ótima qualidade e acabamento.</h5> -->
         </div>
       </li>
-
+      <li>
+        <img class="responsive-img" src="https://monsenhordivisorias.github.io/images/slider2.jpg"> 
+        <div class="caption left-align left">
+          <h3>Produtos naturais</h3>
+        <!--  <h5 class="light grey-text text-lighten-3">Reformas, ajustes e consertos de roupas.</h5>  -->
+        </div>
+      </li>
+      <li>
+        <img class="responsive-img" src="https://monsenhordivisorias.github.io/images/slider3.jpg"> 
+        <div class="caption center-align">
+          <h3 class="white-text">Depilação a cera</h3>
+         <!-- <h5 class="light grey-text text-darken-4">Buscamos que o cliente se sinta realizado em sua individualidade e gosto.</h5> -->
+        </div>
+      </li>
+          
     </ul>
   </div>
 
@@ -18,7 +41,7 @@
   </div>
 
 
-  <div class="container">
+  <div class="container" >
     <div class="section">
 
       <div class="row">
