@@ -85,7 +85,7 @@
 
       event.preventDefault();
       $.ajax({
-        url: "https://formspree.io/mrdmcostura@gmail.com",
+        url: "https://formspree.io/monsenhordivisorias@gmail.com",
         method: "POST",
         data: {
           message: "Nome: " + $scope.mail.nome + "\n" +
